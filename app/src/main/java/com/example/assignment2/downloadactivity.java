@@ -43,7 +43,8 @@ public class downloadactivity extends AppCompatActivity {
 
             s1 = editText1.getText().toString();
             s2 = editText2.getText().toString();
-            url = "https://coarchitects.com/wp-content/uploads/2015/05/UCSC-Engineering-09.jpg";
+            url = s1;
+            //url = "https://coarchitects.com/wp-content/uploads/2015/05/UCSC-Engineering-09.jpg";
             ImageDownloader imageDownloader = new ImageDownloader();
             imageDownloader.execute(url);
             Toast.makeText(downloadactivity.this, "Download successful", Toast.LENGTH_LONG).show();
