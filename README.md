@@ -1,2 +1,2 @@
 # ImageDownloader
-Download images from urls and stores them in a database
+Downloads images from urls and stores them in an SQLite database
